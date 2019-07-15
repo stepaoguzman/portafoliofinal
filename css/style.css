@@ -267,3 +267,144 @@ p {
 	border-radius: 200px; 
 
 }
+/*creacion de botones*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+.divi{
+  margin-top: 80px;
+  margin-left: 320px;
+  font-family: 'Ubuntu';
+}
+
+.login1{
+  width: 200px;
+  height: 60px;
+  background-color: rgb(24, 101, 255);
+  font-size: 20px;
+  border-style: none;
+  border-radius: 0px 20px 0px 20px;
+  transition: 0.3s;
+  color: white;
+}
+
+.login1:hover{
+  border-radius: 20px 0px 20px 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.login1:active{
+  border-radius: 0px 0px 0px 0px;
+  transition: 0.2s;
+}
+
+
+.login2{
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: 0.3s;
+  border-width: 3px;
+  border-color: rgb(24, 101, 255);
+  border-top-color: white;
+  border-style: solid;
+  border-right-color: white;
+}
+
+.login2:hover{
+  border-color: rgb(24, 101, 255);
+  border-top-color: rgb(24, 101, 255);
+  border-right-color: rgb(24, 101, 255);
+  border-bottom-color: white;
+  border-left-color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.login2:active{
+  border-bottom-color: rgb(24, 101, 255);
+  border-left-color: rgb(24, 101, 255);
+  transition: 0.2s;
+  color: rgb(20, 117, 0);
+  letter-spacing: 5px;
+  box
+}
+
+
+.login3{
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(24, 101, 255);
+  border-color: rgb(24, 101, 255);
+  border-style: solid;
+  color: white;
+  border-width: 4px;
+  transition: 0.1s;
+}
+
+.login3:hover{
+  margin-left: 5px;
+  margin-top: 25px;
+  box-shadow: 0 0 0 30px white inset;
+  transition: 0.1s;
+  color: black;
+  cursor: pointer;
+}
+
+.login3:active{
+  box-shadow: 0 0 0 3px rgb(24, 101, 255) inset;
+  transition: 0.1s;
+}
+
+.fondo8{
+font-family: arial;
+}
+
+.pp{
+  background-color: pink;
+  
+}
+.po{
+  background-color: violet;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
